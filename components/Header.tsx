@@ -14,7 +14,7 @@ export default function Header() {
 
       <div className="flex gap-3">
         <ThemeToggle />
-          <Favicon />
+        <Favicon />
       </div>
     </header>
   );
@@ -22,16 +22,16 @@ export default function Header() {
 
 const Logo = () => {
   return (
-<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-  <path d="M14 20 H74 L54 55 H74 L54 90 Z" fill="white"/>
-</svg>
-
+    <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+      <path d="M14 20 H74 L54 55 H74 L54 90 Z" fill="white"/>
+    </svg>
   );
 };
 
 const Favicon = () => {
   return (
     <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-  <path d="M14 20 H74 L54 55 H74 L54 90 Z" fill="white"/>
-</svg>
-);
+      <path d="M14 20 H74 L54 55 H74 L54 90 Z" fill="white"/>
+    </svg>
+  );
+};
