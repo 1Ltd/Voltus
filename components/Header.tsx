@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { ThemeToggle } from "./ThemeToggle";
 import { Button } from "./ds/ButtonComponent";
 export default function Header() {
