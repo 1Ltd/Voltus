@@ -1,8 +1,5 @@
-import Link from "next/link";
 import { ThemeToggle } from "./ThemeToggle";
 import { Button } from "./ds/ButtonComponent";
-import { GitHubLogoIcon } from "@radix-ui/react-icons";
-
 export default function Header() {
   return (
     <header className="flex justify-between px-6 py-4 items-center">
